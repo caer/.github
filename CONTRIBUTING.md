@@ -1,6 +1,6 @@
 # Contributing With Caer: A Guide
 
-This doc is a general guide on how to contribute to projects owned by [@caer](https://www.github.com/caer) and [@with-caer](https://www.github.com/with-caer)  ("our projects").
+This doc is a general guide on how to contribute to projects owned by [@caer](https://www.github.com/caer) and/or [@with-caer](https://www.github.com/with-caer)  ("our projects").
 
 ## Contributing Code
 
@@ -21,12 +21,19 @@ and dev containers: [`OwC-workbench`](https://github.com/with-caer/OwC-workbench
 
 ### When Committing Changes
 
-...use `owc-commit` instead of `git commit`. This script is automatically installed
-by most of our projects' Dev Containers, but can be manually installed by cloning
-[`OwC-workbench`](https://github.com/with-caer/OwC-workbench)
-and running [`install-tools.sh`](https://github.com/with-caer/OwC-workbench/blob/main/install-tools.sh).
+...use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Specifically, use:
 
-## Contributors' License Agreement
+- `feat:` when _adding_ functionality.
+- `fix:` when  _fixing_ functionality
+- `docs:` when _documenting_ functionality.
+- `refactor:` when changing code but _not_ changing functionality.
+- `ops:` when making operational changes like running code formatters, updating dependencies, or modifying CI/CD scripts.
+
+### When Merging Changes
+
+...[squash commits](https://github.blog/open-source/git/squash-your-commits/) into a single commit instead of merging many individual commits.
+
+### Contributors' License Agreement
 
 Most of our projects are licensed under one of the following licenses:
 
