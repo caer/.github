@@ -1,6 +1,6 @@
 # Contributing With Caer: A Guide
 
-This doc is a general guide on how to contribute to projects owned by [@caer](https://www.github.com/caer) and/or [@with-caer](https://www.github.com/with-caer)  ("our projects").
+This doc is a general guide on how to contribute to projects owned by [@caer](https://www.github.com/caer) and/or [@withcaer](https://www.github.com/withcaer)  ("our projects").
 
 ## Contributing Code
 
@@ -9,7 +9,7 @@ as [Cargo Virtual Workspaces](https://doc.rust-lang.org/cargo/reference/workspac
 
 Because our projects use similar tech stacks, we maintain a
 central repository for configuring developer environments
-and dev containers: [`OwC-workbench`](https://github.com/with-caer/OwC-workbench).
+and dev containers: [`OwC-workbench`](https://github.com/withcaer/OwC-workbench).
 
 ### Before Committing Changes
 
