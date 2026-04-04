@@ -46,3 +46,7 @@ While contributions to open source projects are typically covered by the ["inbou
 So that we can adopt and maintain "Fair Source" licensing for our projects, we ask contributors to agree to our [Contributors' License Agreement](.github/pull_request_template.md#with-caer-contributors-license-agreement-version-10) as part of each pull request.
 
 Our pull request template automatically attaches this agreement: As a contributor, all you have to do is check the box confirming you've read and agree to the terms of the agreement.
+
+## Styling Code
+
+- Prefer doc comments (`///`) over block comments (`// ---`, `// ===`, etc.) to introduce functions, tests, and sections. If a file needs visual separators to stay readable, it should probably be split into modules instead.
